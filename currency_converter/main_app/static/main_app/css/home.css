@@ -1,0 +1,20 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/static/main_app/images/currently-photo.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.block-for-form{
+    width: 1000px;
+    height: 600px;
+    border: 7px black solid;
+    border-radius: 15px;
+    background-color: white;
+}
