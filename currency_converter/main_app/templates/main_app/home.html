@@ -10,8 +10,19 @@
     <link rel="stylesheet" href="{% static 'main_app\css\home.css' %}">
 </head>
 <body>
-    <div class="block-for-form">
-
-    </div>
+    <form action="#" method="POST">
+        {% csrf_token %}
+        <div class="block-for-form">
+            <div class="field-block">
+                {% for field in form %}
+                    {{ field }}
+                {% endfor %}
+            </div>
+            <input class="send-button" type="submit">
+            <div class="block-cource-display">
+                {{ meaning }}
+            </div>
+        </div>
+    </form>
 </body>
 </html>

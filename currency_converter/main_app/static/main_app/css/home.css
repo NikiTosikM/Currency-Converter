@@ -17,4 +17,55 @@ body{
     border: 7px black solid;
     border-radius: 15px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.field-block{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.send-button{
+    width: 170px;
+    height: 45px;
+    margin-top: 160px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.field {
+    width: 180px;
+    height: 45px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+select{
+    width: 230px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.block-cource-display{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 350px;
+    font-size: 155px;
+    font-family: sans-serif;
+    color: red;
+    -webkit-text-stroke: 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
